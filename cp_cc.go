@@ -82,6 +82,9 @@ type CP struct {
 	CUSIP     string  `json:"cusip"`
 	Ticker    string  `json:"ticker"`
 	Par       float64 `json:"par"`
+	BuyVal 	  float64 `json:"buyval"`
+	MktVal 	  float64 `json:"mktval"`
+	Addr 	  string  `json:"addr"`
 	Qty       int     `json:"qty"`
 	Discount  float64 `json:"discount"`
 	Maturity  int     `json:"maturity"`
